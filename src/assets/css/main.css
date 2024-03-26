@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-bar .nav-item {
+  position: relative;
+}
+.nav-bar .nav-item a {
+  color: #059862;
+}
+.nav-bar .nav-item::after {
+  content: "";
+  display: block;
+  background-color: #059862;
+  height: 5px;
+  position: absolute;
+  width: 0%;
+  bottom: -5px;
+  left: 0;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.nav-bar .nav-item:hover::after {
+  width: 100%;
+}
+.nav-bar .nav-item.active a {
+  color: blue;
+}
+.nav-bar .nav-item.active::after {
+  width: 100%;
+}
