@@ -44,8 +44,9 @@ const NavBar = () => {
       id: "8",
     },
   ];
+  let urlPath = window.location.pathname;
 
-  let [active, setActive] = useState("/");
+  let [active, setActive] = useState(urlPath);
 
   const handleSetState = (link) => {
     setActive(link);
