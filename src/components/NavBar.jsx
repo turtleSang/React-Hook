@@ -29,8 +29,8 @@ const NavBar = () => {
       id: "5",
     },
     {
-      name: "useReduce",
-      link: "/useReduce",
+      name: "useReducer",
+      link: "/usereducer",
       id: "6",
     },
     {

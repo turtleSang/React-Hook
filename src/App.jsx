@@ -5,6 +5,7 @@ import UseStateEle from "./pages/UseStatePage";
 import UseEffectPage from "./pages/UseEffectPage";
 import UseContextPage from "./pages/UseContextPage";
 import UseRefPage from "./pages/UseRefPage";
+import UseReducerPage from "./pages/UseReducerPage";
 import "./assets/css/main.css";
 
 const App = () => {
@@ -17,7 +18,7 @@ const App = () => {
           <Route path="/useeffect" element={<UseEffectPage />} />
           <Route path="/usecontext" element={<UseContextPage />} />
           <Route path="/useref" element={<UseRefPage />} />
-          <Route path="/usereducer" />
+          <Route path="/usereducer" element={<UseReducerPage />} />
           <Route path="/usecallback" />
           <Route path="/usememo" />
           <Route path="/customhook" />
