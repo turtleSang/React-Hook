@@ -34,14 +34,19 @@ const NavBar = () => {
       id: "6",
     },
     {
+      name: "useCallBack",
+      link: "/usecallback",
+      id: "7",
+    },
+    {
       name: "useMemo",
       link: "/usememo",
-      id: "7",
+      id: "8",
     },
     {
       name: "Custom Hook",
       link: "/customhook",
-      id: "8",
+      id: "9",
     },
   ];
   let urlPath = window.location.pathname;

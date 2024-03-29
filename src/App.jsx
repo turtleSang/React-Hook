@@ -7,6 +7,7 @@ import UseContextPage from "./pages/UseContextPage";
 import UseRefPage from "./pages/UseRefPage";
 import UseReducerPage from "./pages/UseReducerPage";
 import "./assets/css/main.css";
+import UseCallBackPage from "./pages/UseCallBackPage";
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
           <Route path="/usecontext" element={<UseContextPage />} />
           <Route path="/useref" element={<UseRefPage />} />
           <Route path="/usereducer" element={<UseReducerPage />} />
-          <Route path="/usecallback" />
+          <Route path="/usecallback" element={<UseCallBackPage />} />
           <Route path="/usememo" />
           <Route path="/customhook" />
         </Route>
